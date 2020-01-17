@@ -1,0 +1,59 @@
+{
+  "name": "tools-for-instagram",
+  "version": "1.8.3",
+  "description": "Tools for instagram",
+  "main": "src/tools-for-instagram.js",
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^1.4.0",
+    "axios": "^0.19.0",
+    "blob": "0.0.5",
+    "bluebird": "^3.7.2",
+    "canvas": "^2.6.1",
+    "colors": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "face-api.js": "^0.21.0",
+    "inquirer": "^6.5.2",
+    "instagram-id-to-url-segment": "^0.0.0",
+    "instagram-private-api": "^1.36.1",
+    "instagram_mqtt": "github:Nerixyz/instagram_mqtt",
+    "lowdb": "^1.0.0",
+    "minimist": "^1.2.0",
+    "node-cmd": "^3.0.0",
+    "node-fetch": "^2.6.0",
+    "request": "^2.88.0",
+    "shortid": "^2.2.15",
+    "worker-farm": "git+https://github.com/sebamarynissen/node-worker-farm.git#worker-threads"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "bot",
+    "thelinkfy",
+    "instagram",
+    "instagram-lib",
+    "instagram-api",
+    "instagram-bot",
+    "instapy",
+    "instabot",
+    "jarvee",
+    "instagress",
+    "automation",
+    "ninjalitics",
+    "socialads",
+    "socialblade",
+    "api"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "new": "node cli/new.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linkfy/Tools-for-Instagram.git"
+  },
+  "author": "TheLinkfy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/linkfy/Tools-for-Instagram/issues"
+  },
+  "homepage": "https://github.com/linkfy/Tools-for-Instagram#readme"
+}
